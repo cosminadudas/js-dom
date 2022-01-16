@@ -25,6 +25,7 @@ firstParagraph.append(newAnchorElement);
 
 //! REMOVE ELEMENTS
 // 1. Select the element that should be removed
+
 let firstH1Element = document.querySelector('h1');
 
 // 2. Remove it!
@@ -37,5 +38,8 @@ firstH1Element.remove();
 
 //& MOVE ELEMENTS
 firstParagraph.parentElement.append(firstParagraph);
+
+//^ innerHTML property
+firstParagraph.innerHTML = 'Hi! This is <strong>important</strong>';
 
 
